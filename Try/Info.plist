@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MKDirectionsApplicationSupportedModes</key>
+	<array/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>we need to know where your lawn is</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

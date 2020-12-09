@@ -1,0 +1,85 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateAppUser(
+  $input: CreateAppUserInput!
+  $condition: ModelAppUserConditionInput
+) {
+  createAppUser(input: $input, condition: $condition) {
+    id
+    userName
+    locLat
+    locLng
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateAppUser(
+  $input: UpdateAppUserInput!
+  $condition: ModelAppUserConditionInput
+) {
+  updateAppUser(input: $input, condition: $condition) {
+    id
+    userName
+    locLat
+    locLng
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteAppUser(
+  $input: DeleteAppUserInput!
+  $condition: ModelAppUserConditionInput
+) {
+  deleteAppUser(input: $input, condition: $condition) {
+    id
+    userName
+    locLat
+    locLng
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateSvcReq(
+  $input: CreateSvcReqInput!
+  $condition: ModelSvcReqConditionInput
+) {
+  createSvcReq(input: $input, condition: $condition) {
+    id
+    custUName
+    provUName
+    svcLat
+    svcLng
+    svcAddr
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateSvcReq(
+  $input: UpdateSvcReqInput!
+  $condition: ModelSvcReqConditionInput
+) {
+  updateSvcReq(input: $input, condition: $condition) {
+    id
+    custUName
+    provUName
+    svcLat
+    svcLng
+    svcAddr
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteSvcReq(
+  $input: DeleteSvcReqInput!
+  $condition: ModelSvcReqConditionInput
+) {
+  deleteSvcReq(input: $input, condition: $condition) {
+    id
+    custUName
+    provUName
+    svcLat
+    svcLng
+    svcAddr
+    createdAt
+    updatedAt
+  }
+}
